@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard de Alunos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="app">
+    <header class="hero">
+      <div>
+        <span class="tag">Atividade de JavaScript</span>
+        <h1>Dashboard de Alunos</h1>
+        <p>
+          Use arrays, objetos, métodos de array e manipulação do DOM para filtrar
+          alunos por turma, aprovados e reprovados.
+        </p>
+      </div>
+    </header>
+
+    <section class="cards-resumo" aria-label="Resumo dos alunos">
+      <article class="card-resumo">
+        <span>Total de alunos</span>
+        <strong id="qtdTotal">0</strong>
+      </article>
+
+      <article class="card-resumo aprovado">
+        <span>Aprovados</span>
+        <strong id="qtdAprovados">0</strong>
+      </article>
+
+      <article class="card-resumo reprovado">
+        <span>Reprovados</span>
+        <strong id="qtdReprovados">0</strong>
+      </article>
+    </section>
+
+    <section class="painel-filtros">
+      <div class="campo">
+        <label for="filtroTurma">Filtrar por turma</label>
+        <select id="filtroTurma">
+          <option value="todos">Todas as turmas</option>
+          <option value="ADS A">ADS A</option>
+          <option value="ADS B">ADS B</option>
+          <option value="GTI A">GTI A</option>
+          <option value="GTI B">GTI B</option>
+        </select>
+      </div>
+
+      <div class="botoes-filtro" aria-label="Filtros por situação">
+        <button id="btnTodos" class="ativo" type="button">Todos</button>
+        <button id="btnAprovados" type="button">Aprovados</button>
+        <button id="btnReprovados" type="button">Reprovados</button>
+      </div>
+    </section>
+
+    <section class="conteudo">
+      <div class="titulo-lista">
+        <div>
+          <h2>Lista de alunos</h2>
+          <p id="textoFiltro">Exibindo todos os alunos cadastrados.</p>
+        </div>
+      </div>
+
+      <div id="listaAlunos" class="lista-alunos">
+        <!-- Os cards dos alunos serão criados pelo JavaScript -->
+
+
+<!--         <div class="card-aluno"> -->
+
+          <!-- Cabeçalho do card -->
+<!--           <div class="card-header">
+            <div class="avatar-aluno">
+              B
+            </div>
+
+            <div>
+              <h3>Bigode</h3>
+              <p>ADS A</p>
+            </div>
+          </div> -->
+
+          <!-- Informações do aluno -->
+<!--           <div class="card-info">
+            <p>
+              <strong>Nota final:</strong> 10
+            </p>
+
+            <p>
+              <strong>Faltas:</strong> 2
+            </p>
+          </div> -->
+
+          <!-- Status do aluno -->
+<!--           <div class="card-status">
+            <span class="status aprovado">Aprovado</span>
+          </div>
+        </div> -->
+
+      </div>
+
+      <p id="mensagemVazia" class="mensagem-vazia escondido">
+        Nenhum aluno encontrado com esse filtro.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
