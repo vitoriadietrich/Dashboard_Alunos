@@ -1,22 +1,22 @@
-# 📚 Sistema de Gerenciamento de Alunos
+# Sistema de Gerenciamento de Alunos
 
 Projeto desenvolvido em **JavaScript**, com foco em manipulação do DOM, filtros dinâmicos e renderização de componentes na tela.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- ✅ Listagem dinâmica de alunos
-- ✅ Filtro por turma
-- ✅ Filtro por situação (Todos, Aprovados e Reprovados)
-- ✅ Cards individuais para cada aluno
-- ✅ Resumo automático
-- ✅ Mensagem quando não houver alunos
-- ✅ Interface dinâmica usando JavaScript puro
+- Listagem dinâmica de alunos
+- Filtro por turma
+- Filtro por situação (Todos, Aprovados e Reprovados)
+- Cards individuais para cada aluno
+- Resumo automático
+- Mensagem quando não houver alunos
+- Interface dinâmica usando JavaScript puro
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -24,19 +24,19 @@ Projeto desenvolvido em **JavaScript**, com foco em manipulação do DOM, filtro
 
 ---
 
-# 📂 Estrutura do Projeto
+# Estrutura do Projeto
 
 ```bash
-📁 projeto-alunos
- ┣ 📄 index.html
- ┣ 📄 style.css
- ┣ 📄 script.js
- ┗ 📄 README.md
+projeto-alunos
+ ┣ index.html
+ ┣ style.css
+ ┣ script.js
+ ┗ README.md
 ```
 
 ---
 
-# ⚙️ Como Funciona
+# Como Funciona
 
 O sistema possui uma base de dados em JavaScript contendo os alunos:
 
@@ -62,9 +62,9 @@ Cada aluno possui:
 
 ---
 
-# 🧠 Lógica do Projeto
+# Lógica do Projeto
 
-## ✔️ Aprovação
+## Aprovação
 
 O aluno é considerado aprovado quando:
 
@@ -80,7 +80,7 @@ notaFinal < 7
 
 ---
 
-# 🔎 Filtros Disponíveis
+# Filtros Disponíveis
 
 ## Filtrar por turma
 
@@ -102,7 +102,7 @@ Botões disponíveis:
 
 ---
 
-# 🎨 Renderização dos Cards
+# Renderização dos Cards
 
 Cada aluno é renderizado dinamicamente usando template string:
 
@@ -112,7 +112,7 @@ listaAlunos.innerHTML += criarAlunos(aluno);
 
 ---
 
-# 📊 Resumo Automático
+# Resumo Automático
 
 O sistema atualiza automaticamente:
 
@@ -124,7 +124,7 @@ Sempre que um filtro é aplicado.
 
 ---
 
-# 📌 Conceitos Trabalhados
+# Conceitos Trabalhados
 
 Este projeto utiliza vários conceitos importantes de JavaScript:
 
@@ -141,7 +141,7 @@ Este projeto utiliza vários conceitos importantes de JavaScript:
 
 ---
 
-# ▶️ Como Executar
+# Como Executar
 
 1. Clone este repositório:
 
@@ -159,7 +159,7 @@ index.html
 
 ---
 
-# 📖 Objetivo do Projeto
+# Objetivo do Projeto
 
 Este projeto foi criado com o objetivo de praticar:
 
@@ -171,6 +171,6 @@ Este projeto foi criado com o objetivo de praticar:
 
 ---
 
-# 👨‍💻 Autor
+# Autor
 
 Projeto desenvolvido por **Vitória Dietrich** 🚀
