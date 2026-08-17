@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Alunos
+# Dashboard de Gerenciamento de Alunos
 
 Projeto desenvolvido em **JavaScript**, com foco em manipulação do DOM, filtros dinâmicos e renderização de componentes na tela.
 
@@ -146,15 +146,7 @@ Este projeto utiliza vários conceitos importantes de JavaScript:
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
-
-2. Abra a pasta do projeto
-
-3. Execute o arquivo:
-
-```bash
-index.html
+git clone https://github.com/vitoriadietrich/Dashboard_Alunos.git
 ```
 
 ---
