@@ -173,4 +173,4 @@ Este projeto foi criado com o objetivo de praticar:
 
 # Autor
 
-Projeto desenvolvido por **Vitória Dietrich** 🚀
+Projeto desenvolvido por **Vitória de Jesus Dietrich** 
